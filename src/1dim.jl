@@ -16,7 +16,7 @@ struct CellularAutomaton
         ruleset = rule(N, k, r)
 
         w = length(init)
-        cells = Array(Int8, gen, w)
+        cells = zeros(Int8, gen, w)
         cells[1,:] = Array{Int8}(init[:])'
 
         if k == 2
