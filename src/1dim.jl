@@ -65,9 +65,9 @@ function rule(n::Int, k=2, r=1)
         error("number of states (k) must be larger than 1; you gave $k")
     elseif k == 2
         #Elementary CA
-        return digits(n, k, k^(2r+1))
+        return digits(n, base=k, pad=k^(2r+1))
     else
         #Totalistic CA
-        return digits(n, k, (2r+1)k-2)
+        return digits(n, base=k, pad=(2r+1)k-2)
     end
 end
