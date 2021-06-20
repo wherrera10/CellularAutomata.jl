@@ -1,4 +1,4 @@
-using CellularAutonomata, Test
+using CellularAutomata, Test
 
 include("conway_test.jl")
 
