@@ -8,6 +8,8 @@ Tk = "4225ea8a-3324-57e7-9ddc-5798a2cb9eab"
 Cairo = "159f3aea-2a34-519c-b102-8c37f9878175"
 
 [extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 
 [compat]
