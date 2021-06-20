@@ -1,6 +1,6 @@
 authors = ["Joonas Nättilä"]
 name = "CellularAutomata"
-uuid = "4239201d-c60e-5e0a-9702-85d713665ba7"
+uuid = "6a004c20-d1f1-11eb-3021-f9b1ed3016f1"
 version = "0.1.0"
 
 [deps]
