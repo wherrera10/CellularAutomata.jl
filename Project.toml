@@ -1,10 +1,11 @@
-authors = ["William Herrera <wherrera@alahonua.com>"]
-name = "ThreadSafeDicts"
+authors = ["Joonas Nättilä"]
+name = "CellularAutomata"
 uuid = "4239201d-c60e-5e0a-9702-85d713665ba7"
-version = "0.0.3"
+version = "0.1.0"
 
 [deps]
-Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+Tk = "4225ea8a-3324-57e7-9ddc-5798a2cb9eab"
+Cairo = "159f3aea-2a34-519c-b102-8c37f9878175"
 
 [extras]
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
@@ -13,3 +14,5 @@ Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 
 [compat]
 julia = "1"
+Tk = "0.6 0.7 0.8 0.9"
+Cairo = "0.9 1.0 1.1 1.2 1.3"
