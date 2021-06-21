@@ -1,6 +1,8 @@
 Cellular Automata
 ===================
 
+<img src="https://github.com/wherrera10/CellularAutomata.jl/blob/master/docs/src/arrowhead.png">
+
 > A cellular automaton is a collection of "colored" cells on a grid of specified shape that evolves through a number of discrete time steps according to a set of rules based on the states of neighboring cells. 
 > The rules are then applied iteratively for as many time steps as desired.
 
